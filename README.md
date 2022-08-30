@@ -21,3 +21,11 @@ You can install the application by following these steps:
     > **_NOTE:_** The application expects the file to has 3 columns; name, email and phone.
     > There is also file testingData which already includes a 20 thousands records.
 3. When the app finishes, you will see a simple json message `records successfully uploaded` and the excution time, that is when everything has finished succefully.
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `php artisan serve`
+
+Runs the app in the development mode.
