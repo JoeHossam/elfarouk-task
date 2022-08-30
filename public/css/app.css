@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    color: #fefffe;
+    direction: rtl;
+    box-sizing: border-box;
+}
+.test {
+    color: red;
+    background-color: blue;
+}
+
+.nav {
+    height: 40px;
+    padding: 0 30px;
+    background-color: #05274a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+.nav ul li {
+    margin: 0 8px;
+}
+
+section {
+    position: relative;
+}
+
+#main-section {
+    position: relative;
+    height: 120px;
+    padding: 0 30px;
+    align-items: center;
+    background-color: #042c52;
+    display: flex;
+}
+
+#main-section ul {
+    display: flex;
+    list-style: none;
+}
+#main-section ul li {
+    margin: 0 12px;
+}
+
+.wrapper {
+    background-color: #011d38;
+    display: flex;
+    align-items: flex-end;
+}
+
+.container {
+    background-color: #011d38;
+    display: flex;
+    flex-direction: column;
+    padding: 32px 30px;
+    width: 50%;
+}
+
+.container h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.container div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.container div > input,
+.container div > select {
+    width: 100%;
+    margin: 8px;
+    padding: 8px;
+    background-color: #1b324c;
+    border: 0;
+}
+
+.container div > button {
+    background-color: #011f3a;
+    border: 1px solid #ea6848;
+    color: #ea6848;
+    padding: 8px 16px;
+    margin: 8px;
+    cursor: pointer;
+}
+
+#uni-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#grey-box {
+    position: relative;
+    bottom: -15px;
+    width: 555px;
+    height: 320px;
+    background-color: grey;
+    z-index: 3;
+}
+
+#second-section {
+    padding: 30px;
+    display: flex;
+}
+
+#second-section > div {
+    width: 100%;
+    padding: 0 20px;
+}
+#second-section div,
+#second-section h4 {
+    color: black;
+}
+
+.title {
+    color: black;
+}
+.title ::after {
+    content: "";
+    height: 1px;
+    width: 30px;
+    background-color: #011d38;
+}
+
+.dflex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.c-black {
+    color: black;
+}
+
+#date {
+    color: #ccc;
+}
+
+#grey-box-2 {
+    height: 320px;
+    background-color: grey;
+    z-index: 3;
+}
