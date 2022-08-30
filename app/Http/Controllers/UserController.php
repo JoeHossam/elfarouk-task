@@ -16,6 +16,7 @@ class UserController extends Controller
     
     public function store(Request $req) 
     {
+        set_time_limit(180);
         // To calculate excution time
         $start = microtime(true);
 
