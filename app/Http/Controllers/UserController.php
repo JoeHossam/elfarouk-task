@@ -16,11 +16,18 @@ class UserController extends Controller
     
     public function store(Request $req) 
     {
+        // To calculate excution time
+        $start = microtime(true);
+
         $file = $req->file('file');
         Excel::import(new UsersImport, $file);
 
+        $end = microtime(true) - $start;
+        $sec = intval($end);
+
         return response()->json([
-            'message' => "records successfully uploaded"
+            'message' => "records successfully uploaded",
+            'excution_time' => "$sec seconds"
         ]);
     }
 }
